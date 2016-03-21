@@ -1,0 +1,13 @@
+---
+buildName: "ansible-pipeline-test-project"
+codeReview: false
+links:
+  Git: "https://github.com/jmlambert78/pipeline-test-project"
+  Job: "http://172.30.155.230:80/job/ansible-pipeline-test-project"
+  Production: "http://172.30.227.254:80/kubernetes/pods?namespace=ansible-pipeline-test-project-prod"
+  Staging: "http://172.30.227.254:80/kubernetes/pods?namespace=ansible-pipeline-test-project-staging"
+  Testing: "http://172.30.227.254:80/kubernetes/pods?namespace=ansible-pipeline-test-project-testing"
+environments:
+  Testing: "ansible-pipeline-test-project-testing"
+  Staging: "ansible-pipeline-test-project-staging"
+  Production: "ansible-pipeline-test-project-prod"
